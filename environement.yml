@@ -1,0 +1,12 @@
+name: quaada
+channels:
+    - default
+dependencies:
+    - python=3.8
+    - pip
+    - matplotlib
+    - jupyterlab
+    - pip:
+      - tensorflow==2.4.1
+      - numpy==1.19.2
+      - tensorflow-datasets==4.2.0
